@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://schema.org"
+  ],
+  "type": ["VerifiableCredential", "AgentIdentityCredential"],
+  "name": "Agent Identity Origin",
+  "description": "Certifies the Agent's developer origin, source code integrity and base software version.",
+  "credentialSubject": {
+    "id": "will_be_replaced_by_code",
+    "agent_name": "Lab Agent",
+    "developer_did": "did:ethr:sepolia:0xDeveloperAddress...",
+    "softwareComponent": {
+      "@type": "SoftwareApplication",
+      "softwareVersion": "v2.0.0",
+      "framework": "LangChain v1.1.0",
+      "downloadUrl": "https://github.com/lab/agent",
+      "commitHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dateCreated": "2025-11-20T10:00:00Z"
+    },
+    "integrityCheck": "passed"
+  }
+}

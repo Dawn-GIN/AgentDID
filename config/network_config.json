@@ -1,0 +1,28 @@
+{
+  "holders": [
+    {
+      "name": "Holder-A",
+      "port": 5000,
+      "role": "agent_a_op"
+    },
+    {
+      "name": "Holder-B",
+      "port": 5001,
+      "role": "agent_b_op"
+    }
+  ],
+  "verifiers": [
+    {
+      "name": "Verifier-C",
+      "port": 5002,
+      "role": "agent_c_op",
+      "target_url": "http://localhost:5000"
+    },
+    {
+      "name": "Verifier-D",
+      "port": 5003,
+      "role": "agent_d_op",
+      "target_url": "http://localhost:5001"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://schema.org"
+  ],
+  "type": ["VerifiableCredential", "AgentComplianceCredential"],
+  "name": "China Security & Compliance Attestation",
+  "description": "Certifies compliance with China's Generative AI regulations, PIPL, and cybersecurity standards.",
+  "credentialSubject": {
+    "id": "will_be_replaced_by_code",
+    "complianceProfile": {
+      "kycLevel": "Level-3 (Real-name Auth)",
+      "jurisdiction": "CN (PIPL) & Global",
+      "filingStatus": {
+        "algorithmFilingId": "110100000000-00000-00000",
+        "providerStatus": "Model Licensed (Alibaba Cloud)"
+      },
+      "standards": [
+        "TC260-003 (GenAI Security Req)",
+        "GB/T 35273-2020 (PIPL Spec)",
+        "Interim Measures for GenAI Services"
+      ],
+      "securityMeasures": {
+        "contentSafetyFilter": "Aliyun-Green-Web-v2",
+        "coreSocialistValuesAligned": true,
+        "dataResidency": "CN-Region"
+      },
+      "auditDate": "2025-11-21"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://schema.org"
+  ],
+  "type": ["VerifiableCredential", "AgentCapabilityCredential"],
+  "name": "Agent Capability Assessment",
+  "description": "Verified performance metrics based on long-context evaluation benchmarks.",
+  "credentialSubject": {
+    "id": "will_be_replaced_by_code",
+    "evaluation": {
+      "@type": "Rating",
+      "ratingSystem": "OpenCompass (Long Context)",
+      "ratingValue": "0.931",
+      "bestRating": "1.000",
+      "dimensionScores": {
+        "needleBench_1M": 1.00,
+        "ruler_avg": 0.93,
+        "longBench": 0.68,
+        "lv_eval": 0.53
+      },
+      "datasetHash": "sha256:7f83b165..."
+    }
+  }
+}

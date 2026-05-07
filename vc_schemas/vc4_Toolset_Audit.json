@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://schema.org"
+  ],
+  "type": ["VerifiableCredential", "AgentToolsetCredential"],
+  "name": "Agent Toolset Certification",
+  "description": "Certifies that the tools integrated by the Agent are authentic, operational, and correctly authorized.",
+  "credentialSubject": {
+    "id": "will_be_replaced_by_code",
+    "auditId": "AUDIT-2025-12-15-001",
+    "toolManifest": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SHA-256 Calculator",
+        "identifier": "tool.hash.sha256",
+        "description": "Calculates the SHA-256 hash of a given text string for verification purposes.",
+        "permissions": "local-compute",
+        "rateLimit": "Unlimited",
+        "operationalStatus": "Active"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "UTC Time Oracle",
+        "identifier": "tool.time.utc_now",
+        "description": "Provides the current standard UTC timestamp.",
+        "permissions": "read-system-clock",
+        "rateLimit": "Unlimited",
+        "operationalStatus": "Active"
+      }
+    ]
+  }
+}

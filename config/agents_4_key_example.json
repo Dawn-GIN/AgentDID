@@ -1,0 +1,47 @@
+{
+    "api_url": "https://ethereum-sepolia.publicnode.com",
+    "api_url_pool": [
+        "https://ethereum-sepolia.publicnode.com",
+        "https://sepolia.drpc.org",
+        "https://sepolia.gateway.tenderly.co"
+  ],
+    "qwq_api_key": "YOUR_API_KEY_HERE",
+    "accounts": {
+        "issuer": {
+            "address": "0x...",
+            "private_key": "YOUR_PRIVATE_KEY_HERE"
+        },
+        "agent_a_admin": {
+            "address": "0x...",
+            "private_key": "YOUR_PRIVATE_KEY_HERE"
+        },
+        "agent_a_op": {
+            "address": "0x...",
+            "private_key": "YOUR_PRIVATE_KEY_HERE"
+        },
+        "agent_b_admin": {
+            "address": "0x...",
+            "private_key": "YOUR_PRIVATE_KEY_HERE"
+        },
+        "agent_b_op": {
+            "address": "0x...",
+            "private_key": "YOUR_PRIVATE_KEY_HERE"
+        },
+        "agent_c_admin": {
+            "address": "0x...",
+            "private_key": "YOUR_PRIVATE_KEY_HERE"
+        },
+        "agent_c_op": {
+            "address": "0x...",
+            "private_key": "YOUR_PRIVATE_KEY_HERE"
+        },
+        "agent_d_admin": {
+            "address": "0x...",
+            "private_key": "YOUR_PRIVATE_KEY_HERE"
+        },
+        "agent_d_op": {
+            "address": "0x...",
+            "private_key": "YOUR_PRIVATE_KEY_HERE"
+        }
+    }
+}

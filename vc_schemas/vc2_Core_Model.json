@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://schema.org"
+  ],
+  "type": ["VerifiableCredential", "AgentModelCredential"],
+  "name": "Core LLM Model Certification",
+  "description": "Certifies the authenticity and technical specifications of the underlying LLM model used by the Agent.",
+  "credentialSubject": {
+    "id": "will_be_replaced_by_code",
+    "modelSpecification": {
+      "@type": "Product",
+      "name": "qwen-turbo",
+      "manufacturer": "Alibaba Cloud",
+      "category": "Large Language Model (LLM)",
+      "description": "Proprietary high-performance model from the Tongyi Qianwen series",
+      "additionalProperty": {
+        "contextWindow": "1,000,000 tokens",
+        "watermarkVerified": false,
+        "watermarkType": "Alibaba-Proprietary"
+      }
+    }
+  }
+}
